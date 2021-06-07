@@ -1,0 +1,19 @@
+{
+    "name": "chatWebSocket",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "build": "cd client && yarn install && yarn build"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "2.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.24.0",
+        "eslint-plugin-html": "^6.1.2",
+        "nodemon": "^2.0.7"
+    }
+}
